@@ -1,3 +1,7 @@
+# Dog Breed Classifier
+
+* The project has been hosted on [Github](https://madhur-taneja.github.io/Dog-Breed-Classifier/report.html)
+
 [//]: # (Image References)
 
 [image1]: ./images/sample_dog_output.png "Sample Output"
