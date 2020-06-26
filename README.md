@@ -14,8 +14,9 @@ The project has been hosted on [Github](https://madhur-taneja.github.io/Dog-Bree
 		- [Setting up the Codebase](#codebase)
 		- [Setting up the Dataset](#dataset)
 		- [Installation](#installation)
-- [Development](#development)
 - [Running the App](#running-the-app)
+- [Development](#development)
+- [Stopping the App](#stopping-the-app)
 - [Evaluation](#evaluation)
 - [Submission](#submission)
 - [References](#references)
@@ -34,6 +35,7 @@ Along with exploring state-of-the-art CNN models for classification, I made impo
 
 You would require the following tools to develop and run the project:
 
+* [Pip](https://pip.pypa.io/en/stable/installing/)
 * [Python](https://www.python.org/downloads/)
 * [Anaconda](https://www.anaconda.com/products/individual) or [Miniconda](https://docs.conda.io/en/latest/miniconda.html)
 
@@ -148,10 +150,6 @@ Start by installing python and anaconda
 
 __NOTE:__ While some code has already been implemented to get you started, you will need to implement additional functionality to successfully answer all of the questions included in the notebook. __Unless requested, do not modify code that has already been included.__
 
-## Development
-
-Follow the instructions in the notebook; they will lead you through the project. You'll be editing the `dog_app.ipynb` python file.
-
 ## Running the App
 
 To run the project:
@@ -159,6 +157,22 @@ To run the project:
 1. Activate the conda environment as mentioned in the [6th and 7th point](#6) of the Installation section
 2. Start the Jupyter Notebook as mentioned in the [11th point](#11) of the Installation section
 3. Press the `play`  :arrow_forward:  icon to start the execution of cells. The output will be visible right below the cells.
+
+## Development
+
+Follow the instructions in the notebook; they will lead you through the project. You'll be editing the `dog_app.ipynb` file.
+
+## Stopping the App
+
+Once you're done with the app, stop it gracefully using the following command:
+
+1. Select `File -> Close and Halt` inside jupyter notebook 
+2. Press `Ctrl+c` in the cli
+3. Deactivate and Delete (if finished with the project) the environment
+	```
+	>> conda deactivate dog-project           # Deactivate the environment
+	>> conda remove --name dog-project --all  # Delete the environment
+	```
 
 ## Evaluation
 
