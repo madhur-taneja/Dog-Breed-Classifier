@@ -2,7 +2,7 @@
 
 A pipeline of neural networks to process real-world, user-supplied images. If given an image of a dog, the algorithm will identify an estimate of the canine’s breed else if supplied an image of a human, the code will identify the resembling dog breed.
 
-Open and view the Project using the `.zip` file provided or at my [Github Repository](https://github.com/madhur-taneja/Predicting-Bike-Sharing-Data)
+Open and view the Project using the `.zip` file provided or at my [Github Repository](https://github.com/madhur-taneja/Dog-Breed-Classifier)
 
 The project has been hosted on [Github](https://madhur-taneja.github.io/Dog-Breed-Classifier/report.html)
 
